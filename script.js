@@ -1,7 +1,7 @@
 
-const apiKey = ""; //Put your API KEY here
+const apiKey = "a33f719bffa45b6d7a9b77447fb5925d"; //Put your API KEY here
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric";
-// const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=bangalore&units=metric&appid=a33f719bffa45b6d7a9b77447fb5925d";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=bangalore&units=metric&appid=a33f719bffa45b6d7a9b77447fb5925d";
 
 // console.log("Test");
 
