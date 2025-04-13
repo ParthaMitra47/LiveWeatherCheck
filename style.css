@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: Poppin;
+    src: url(../Poppins/Poppins-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+body{
+    background-color: #202020;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #2e5dd6, #08003f);
+    color: #fff ;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search-icon{
+    width: 60px; 
+    height: 60px;
+    background: #ffffff00;
+    border-radius: 50px;
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff00;
+}
+.search button{
+    background-color: #97959500;
+    border: 0px;
+    outline: 0px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 50px;
+    
+
+}
+.search input{
+    border: 0px;
+    outline: 0px;
+    background: #ebfffc;
+    background-color: azure;
+    color: #6d6d6d;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.weather-icon{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+
+
+/* .temp, .city{
+    font-family: Poppin;
+} */
+
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+    font-family: Poppin;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    /* height: 40px; */
+    width: 60px;
+    margin-right: 10px;
+    /* margin-bottom: 30px; */
+
+}
+
+
+.humidity, .wind{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -8px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+}
+
+.appname{
+    display: flex;
+    font-size: 25px;
+    margin: 20px;
+    font-weight: bold;
+
+
+}
