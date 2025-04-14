@@ -18,13 +18,14 @@ body{
 }
 .card{
     width: 90%;
-    max-width: 470px;
+    /* max-width: 470px; */
     background: linear-gradient(135deg, #2e5dd6, #08003f);
     color: #fff ;
     margin: 20px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    
 }
 .search-icon{
     width: 60px; 
@@ -63,6 +64,8 @@ body{
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    flex: 1; /* Allow the input field to grow and shrink */
+    min-width: 0; /* Prevent overflow issues */
 }
 
 .weather-icon{
@@ -140,4 +143,42 @@ body{
     font-weight: bold;
 
 
+}
+@media (max-width: 480px) {
+    .card {
+        padding: 20px 15px; /* Reduce padding for smaller screens */
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px; /* Add spacing between input and button */
+        flex-wrap: wrap; /* Allow wrapping to prevent overflow */
+    }
+
+    .search-icon {
+        width: 40px; /* Adjust the size of the search icon */
+        height: 40px;
+        
+    }
+
+    .search input {
+        border: 0px;
+        outline: 0px;
+        background: #ebfffc;
+        background-color: azure;
+        color: #6d6d6d;
+        padding: 10px 25px;
+        height: 50px;
+        border-radius: 30px;
+        flex: 1; /* Allow the input field to grow and shrink */
+        min-width: 0; /* Prevent overflow issues */
+        font-size: 18px;
+    }
+
+    .search button {
+        height: 40px; /* Match the height of the input field */
+        width: 40px; /* Match the size of the search icon */
+    }
 }
