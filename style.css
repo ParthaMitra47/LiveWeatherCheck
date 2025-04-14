@@ -181,4 +181,13 @@ body{
         height: 40px; /* Match the height of the input field */
         width: 40px; /* Match the size of the search icon */
     }
+     .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8px;
+        margin-top: 50px;
+        font-size: 12px;
+        
+    }
 }
